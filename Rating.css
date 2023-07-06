@@ -3,13 +3,19 @@
     padding: 0;
 }
 .container {
-    width: 200px;
-    margin: 50px auto;
+    /* width: 200px;
+    margin: 50px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
   }
 .rate {
-    float: left;
+    /* float: left; */
     height: 46px;
     padding: 0 10px;
+ display: flex;
+ justify-content: center;
 }
 .rate:not(:checked) > input {
     position:absolute;
